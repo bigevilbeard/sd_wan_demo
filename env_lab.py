@@ -37,8 +37,15 @@ ENVIRONMENT_IN_USE = "sandbox"
 
 # Set the 'Environment Variables' based on the lab environment in use
 if ENVIRONMENT_IN_USE == "sandbox":
-    sdwan = {
+    sdwan_always = {
         "host": "sandboxsdwan.cisco.com",
+        "port": 8443,
+        "username": "devnetuser",
+        "password": "Cisco123!"
+    }
+    # Values for the Reservable sd-wan XE Sandbox
+    sdwan_resvered = {
+        "host": "10.10.20.90",
         "port": 8443,
         "username": "devnetuser",
         "password": "Cisco123!"

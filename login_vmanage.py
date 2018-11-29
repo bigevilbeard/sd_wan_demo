@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-from env_lab import sdwan
+from env_lab import sdwan_resvered
 import requests
 import json
 import urllib3
