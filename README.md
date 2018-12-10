@@ -46,4 +46,4 @@ pip install https://github.com/bobthebutcher/viptela/archive/master.zip
 pip install -r requirements
 ```
 
-[![sdwan](https://github.com/bigevilbeard/sd_wan_demo/blob/master/sdwansvg.svg)
+![sdwan](./sdwansvg.svg)
