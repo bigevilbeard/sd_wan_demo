@@ -47,5 +47,5 @@ pip install -r requirements
 ```
 
 <p align="center">
-    <img max-width: 100% src="https://github.com/bigevilbeard/sd_wan_demo/blob/master/termtosvg_wb7f_jph.svg">
+<img src="https://raw.githubusercontent.com/bigevilbeard/sd_wan_demo/master/termtosvg_wb7f_jph.svg">
 </p>
