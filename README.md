@@ -46,6 +46,4 @@ pip install https://github.com/bobthebutcher/viptela/archive/master.zip
 pip install -r requirements
 ```
 
-<p align="center">
-<img width=100% height="400” src="https://raw.githubusercontent.com/bigevilbeard/sd_wan_demo/master/termtosvg_wb7f_jph.svg">
-</p>
+[![asciicast](https://asciinema.org/a/hvOb5tz9zNMs8MMttx7wYToEh.svg)](https://asciinema.org/a/hvOb5tz9zNMs8MMttx7wYToEh)
