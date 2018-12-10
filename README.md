@@ -46,4 +46,4 @@ pip install https://github.com/bobthebutcher/viptela/archive/master.zip
 pip install -r requirements
 ```
 
-[![asciicast](https://asciinema.org/a/hvOb5tz9zNMs8MMttx7wYToEh.svg)](https://asciinema.org/a/hvOb5tz9zNMs8MMttx7wYToEh)
+[![sdwan](https://github.com/bigevilbeard/sd_wan_demo/blob/master/sdwansvg.svg)
