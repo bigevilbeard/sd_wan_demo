@@ -9,6 +9,27 @@ python -V
 Python 3.6.5
 ```
 
+The requirements for external libraries (install both of these):
+
+1. `get_devices.py` and `get_vpn.py` use the Python library for use with Viptela vManage API
+2. `viptelaquery.py` uses `requests` and `configparser`
+
+
+## Installation
+```
+pip install -r requirements
+```
+## Bulk API Operations
+
+RESTful bulk API calls allow you to issue a single RESTful API command to collect information about multiple vEdge routers in the overlay network. The information is returned in batches.
+
+You can perform two types of bulk API operations:
+
+`State`— These operations return status information about the sdwan devices, such as the number and state of OMP and BFD sessions
+
+`Statistics` — These operations return statistics from the sdwan devices, such as the number of transmitted and received data packets
+
+
 ## Returns All Inventory Data
 This section of the code will retrieve the inventory data of the vMange and return summary data of all devices in the network. The data includes SystemIP, Hostname, Version of code, UUID and interfaces and statistics. The second part of the demo presents the detailed tunnel statistics on an individual vEdge.
 
@@ -20,30 +41,6 @@ This python script implements four basic functions that are described below:
 `get_statistic` - Return the interface statistics for each interface in each device
 `get_tunnel_statistic` - For a given vEdge, return the statistics on all the tunnels that are defined on that device
 
-# Requirements and Prerequisites
-`package_config.ini`
 
-The code uses a file called the `package_config.ini` to house the information about the vManage and the credentials that the application uses. In the repository, there is a package_config.ini.sample that you should rename to package_config.ini. Then modify the package_config.ini to reflect the following information:
-
-`serveraddress` - Represents the ip address of the vManage server
-`username` - username of the login credentials on the vManage server
-`password` - password of the login credentials on the vManage server
-`systemip` - systemip of a device that will be queried for detailed tunnel information
-python
-
-
-There are two main requirements for external libraries (install both of these):
-1. `get_devices.py` and `get_vpn.py` use the Python library for use with Viptela vManage API
-2. `viptelaquery.py` uses `requests` and `configparser`
-
-```
-requests
-configparser
-```
-```
-## Installation
-pip install https://github.com/bobthebutcher/viptela/archive/master.zip
-pip install -r requirements
-```
 
 ![sdwan](./demo.gif)

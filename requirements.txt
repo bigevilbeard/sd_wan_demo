@@ -1,2 +1,5 @@
 requests
+tabulate
 configparser
+urllib3
+https://github.com/bobthebutcher/viptela/archive/master.zip
