@@ -9,10 +9,9 @@ python -V
 Python 3.6.5
 ```
 
-The requirements for external libraries (install both of these):
+The requirements
 
-1. `get_devices.py` and `get_vpn.py` use the Python library for use with Viptela vManage API
-2. `viptelaquery.py` uses `requests` and `configparser`
+`get_devices.py` and `get_vpn.py` use the Python library for use with Viptela vManage API
 
 
 ## Installation
